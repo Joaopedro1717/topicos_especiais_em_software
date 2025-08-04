@@ -1,3 +1,4 @@
+"""tabuada"""
 numero = int(input("Digite um número para ver sua tabuada: "))
 intervalo = int(input("Digite o intervalo para a tabuada: "))
 
