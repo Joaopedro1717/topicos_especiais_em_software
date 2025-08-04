@@ -24,7 +24,6 @@ if total > 100:
 
 valor_final = total - desconto
 
-# Exibe resultados
 print("\nResumo da Compra:")
 for nome, preco in produtos:
     print(f"- {nome}: R${preco:.2f}")
