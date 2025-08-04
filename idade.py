@@ -1,0 +1,15 @@
+"""Exercício de idade"""
+idade = int(input("Digite sua idade: "))
+print(f"Você tem {idade} anos.")
+
+if idade < 0:
+    print("Idade inválida")
+elif idade < 12:
+    print("Você é criança")
+elif idade < 18:
+    print("Você é adolescente")
+elif idade < 60:
+    print("Você é adulto")
+else:
+    print("Você é idoso")
+
